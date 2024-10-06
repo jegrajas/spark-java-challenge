@@ -14,13 +14,13 @@ The job reads the input dataset, aggregates the metrics, and writes the output t
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/yourrepository.git
+git clone https://github.com/jegrajas/spark-java-challenge.git
 ```
 
 2. Navigate to the project directory:
 
 ```bash
-cd yourrepository
+cd spark-java-challenge
 ```
 
 3. Build the project:

@@ -36,14 +36,14 @@ java --add-exports java.base/sun.nio.ch=ALL-UNNAMED -jar target/spark-batch-aggr
 ```
 default is 24 hour is the time bucket for the aggregation. no need to pass any argument.
 
-5 .Run the project with different time bucket:    
+5. Run the project with different time bucket:    
 
  ```bash
 java --add-exports java.base/sun.nio.ch=ALL-UNNAMED -jar target/spark-batch-aggregation-job-0.0.1.jar "30 minutes"
 ```
 time bucket can be 15 minutes, 30 minutes,1 hour,4 hour,8 hour, 24 hour.
 
-5 .The Spark UI can be accessible through this link.
+6. The Spark UI can be accessible through this link.
 
 [Spark UI link](http://localhost:4040/)
 
